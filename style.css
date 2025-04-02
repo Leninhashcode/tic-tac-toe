@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(241, 159, 196);
+}
+.container {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 10px;
+    
+    width:500px 
+    
+    
+
+}
+.method{
+    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.gamewinner{
+  margin-top: 5px;
+  
+  transform: scale(0);
+}
+
+
+.button {
+    width: 80px;
+    height: 120px;
+    padding: 65px;
+    border-radius: 8px;
+    box-shadow: 0 0 1vmin rgb(166, 56, 172) ;
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    background-color: #dfcde2;
+    color: rgb(80, 7, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.final {
+    transform: scale(1);
+}
+.new-btn{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.rst-btn{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+}
