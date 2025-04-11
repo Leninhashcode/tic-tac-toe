@@ -82,11 +82,12 @@ function checkWinner() {
             }
             
         }
-        if (count === buttons.length) {
+
+    }
+            if (count === buttons.length) {
             temp = "Draw"
             showdraw(temp);
         }
-    }
 }
 newGame.addEventListener('click',reset);
 resetGame.addEventListener('click',reset);
